@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: var(--primarycolor)
+}
+
+:root {
+    --primarycolor: black;
+    --ow: #F3F4F6;
+    --dw: #6B7280;
+}
+
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.firstlink {
+    background-color: rebeccapurple;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem, 1rem;
+}
+
+.secondlink {
+    background-color: seashell;
+    border-radius: 1rem;
+    color: rebeccapurple;
+    border: 1px solid;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.list1 {
+    list-style-type: circle;
+}
+
+.list2 {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primarycolor);
+    color: seashell;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.inline2 {
+    display: inline;
+    color: white;
+    padding: 6rem;
+    font-size: 1.5rem;
+}
+
+.inlinee {
+    text-align: center;
+    text-decoration: white;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+.link {
+    font-weight: bold;
+    color: white;
+}
+
+.hero {
+    padding: 1rem;
+    text-align: center;
+}
+
+.heroimage {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+.herotext {
+    color: var(--primarycolor);
+}
+
+.sectionh31 {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.sectionwhite {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.ow1 {
+    background-color: var(--ow);
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow2 {
+    background-color: var(--ow);
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow3 {
+    background-color: var(--ow);
+    text-align: center;
+    padding: 2rem;
+}
+
+.ws {
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.bloglink {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.social {
+    display: inline;
+    padding: 8rem;
+    font-size: 1.5rem;
+}
+
+.footerheading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.sectionh32 {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.sectionoffwhite {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.sectionh34 {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.sectionow3 {
+    font-size: 1.5rem;
+}
+
+.potterlink {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.pottercode {
+    font-size: 1.5rem;
+    display: block;
+    max-width: 150px;
+    color: var(--primarycolor);
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    border: 2px solid var(--primarycolor);
+}
+
+.sectionoffwhitee {
+    color: var(--primarycolor);
+    font-size: 1.5rem;
+}
+
+.projectlink {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 4rem;
+    background-color: grey;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.inline1 {
+    display: inline;
+}
+
+.projecthead {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.blogheading {
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+
+.blogheading {
+    font-weight: bold;
+    color: var(--primarycolor);
+    text-align: center;
+}
+
+.blog1heading {
+    font-weight: bold;
+    color: var(--dw);
+    font-size: 2.5rem;
+}
+
+.blog1section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.blog1date {
+    color: black;
+    font-size: 1rem;
+}
+
+.blog1preview {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+
+.blog1link {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.blog2heading {
+    font-weight: bold;
+    color: var(--dw);
+    font-size: 2.5rem;
+}
+
+.blog2section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.blog2date {
+    color: black;
+    font-size: 1rem;
+}
+
+.blog2preview {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+
+.blog2link {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.gitlink:hover {
+    color: white;
+}
+
+.twitterlink:hover {
+    color: white;
+}
+
+.hackerranklink:hover {
+    color: white;
+}
+
+.ow4 {
+    background-color: var(--ow);
+    text-align: center;
+    padding: 2rem;
+}
+
+.bananalink {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.bananacode {
+    font-size: 1.5rem;
+    display: block;
+    max-width: 150px;
+    color: var(--primarycolor);
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    border: 2px solid var(--primarycolor);
+}
+
+.sectionow3 {
+    font-size: 1.5rem;
+}
+
+.ws4 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.valyrianlink {
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+}
+
+.valyriancode {
+    font-size: 1.5rem;
+    display: block;
+    max-width: 150px;
+    color: var(--primarycolor);
+    margin: 1rem 34rem 1rem 35rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    border: 2px solid var(--primarycolor);
+}
+
+.ws3 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.sectionws4 {
+    font-size: 1.5rem;
+}
+
+.sectionow4 {
+    font-size: 1.5rem;
+}
+
+.blog1h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.blog1para {
+    color: black;
+    text-align: justify;
+}
+
+.blog1ending {
+    text-align: center;
+    color: black;
+}
+
+.blog1author {
+    color: black;
+    text-align: center;
+}
+
+.boomimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F3F4F6;
+    width: 50%;
+}
